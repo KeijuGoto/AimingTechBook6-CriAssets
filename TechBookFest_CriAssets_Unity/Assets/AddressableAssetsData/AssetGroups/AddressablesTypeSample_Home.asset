@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: AddressablesTypeSample_Home
+  m_EditorClassIdentifier: 
+  m_GroupName: AddressablesTypeSample_Home
+  m_GUID: 02ffc117b18eb4fd5b76d1131d7a9a0a
+  m_SerializeEntries:
+  - m_GUID: 5463bd25e1d0e438ba322e90fa25d006
+    m_Address: Assets/Scenes/AddressablesTypeSample/Home.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a0631a1fca74e4486bc15848e1ba603e
+    m_Address: Assets/CriAssets/Addressables/BGM_Home.acb
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b8fd70c9053e64f76bdb13d9ab39d22f
+    m_Address: Assets/Timelines/Home
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d653a8492e5c249a7aebecf62ed36675
+    m_Address: Assets/CriAssets/Addressables/BGM_Home.awb
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 44aed5424ee704c43a020428264a86fb, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 8d6dd917e8df142b7b99d88a45357e89, type: 2}
+    - {fileID: 11400000, guid: baa09157478334d16958ad9afb9ec46d, type: 2}
