@@ -22,7 +22,7 @@ namespace TbfCa
             CriAtomAssetsLoader.AddCueSheet(acbAsset);
             var cts = CancellationTokenSource.CreateLinkedTokenSource(ct, destroyCancellationToken);
             await UniTask.WaitUntil(() => acbAsset.Loaded, cancellationToken: cts.Token);
-            await PlayImplAsync(cueReference, ct);
+            await PlayImplAsync(cueReference, cts.Token);
         }
 
         public async UniTask PlayAsync(string cueSheetName, string cueName, CancellationToken ct)
