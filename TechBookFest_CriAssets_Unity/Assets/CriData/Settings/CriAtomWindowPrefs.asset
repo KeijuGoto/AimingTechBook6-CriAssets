@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7dbb5a65a01a1de4ebfe0c4a1352cc1a, type: 3}
   m_Name: CriAtomWindowPrefs
   m_EditorClassIdentifier: 
-  searchPath: /Users/hall8112/Desktop/TechBookFest_CriAssets/TechBookFest_CriAssets_Unity/Assets/CriAssets
+  searchPath: /Users/hall8112/Desktop/TechBookFest_CriAssets/TechBookFest_CriAssets/Assets/StreamingAssets
   outputAssetsRoot: 
   showPrivateCue: 0

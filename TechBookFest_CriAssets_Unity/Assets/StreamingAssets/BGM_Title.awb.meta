@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 734f63f71dc9e8d4aaa481d2e9d05d92
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 503c02039ceed4218bb78fdac1d6a536, type: 3}
+  implementation:
+    rid: 4335983876423548998
+  references:
+    version: 2
+    RefIds:
+    - rid: 4335983876423548998
+      type: {class: CriCustomAddressableAssetImplCreator, ns: CriWare.Assets, asm: CriMw.CriWare.Assets.Addressables.Editor}
+      data:
+        customPathPair: {instanceID: 0}
