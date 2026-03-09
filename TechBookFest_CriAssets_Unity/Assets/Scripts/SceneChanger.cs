@@ -9,6 +9,10 @@ using UnityEngine.SceneManagement;
 
 namespace TbfCa
 {
+    /// <summary>
+    /// ビルトインシーンと Addressable なシーン間を遷移(Load & Unload)します。
+    /// ※注意: 初回のシーン遷移はビルトインシーンから行ってください
+    /// </summary>
     public class SceneChanger : MonoBehaviour
     {
         private static SceneChanger _instance;
